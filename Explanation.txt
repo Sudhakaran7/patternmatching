@@ -1,0 +1,46 @@
+Subi is fond of strings and pattern, so she wants to develop an algorithm that,
+given an input string S and a pattern P, implement regular expression matching with support for '.' and '*'.
+'.' Matches any single character.
+'*' Matches zero or more of the preceding element.
+Constraint: The matching should cover the entire input string (not partial).
+
+Input Description:
+S a string aand in next line, P pattern for matching for the string S
+
+Output Description:
+True or False
+
+Sample Input:
+baa
+.*
+
+Sample Output:
+True
+
+Explanation:
+the given string is "baa", and ".*"
+the "." represents the single character ->b
+"*" represents zero or more of the preceding element ->aa
+so the output is True
+
+Sample Input:
+aa
+a
+
+Samle Output:
+False
+
+Sample Input:
+cdgg
+d.*
+
+Sample Output:
+False
+
+Sample Input:
+guvi
+gu.i.
+
+Sample Output:
+False
+
